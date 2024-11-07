@@ -88,7 +88,7 @@ spike_gene <- subseq(seqs_sample, start=21563, end=25384)
 print(spike_gene)
 
 # Calculate the codon usage for one of the extracted sequences
-set.seed(2024)
+set.seed(20241107)
 spike_gene_selected <- spike_gene[sample(1:2, 1)]
 length(spike_gene_selected)
 width(spike_gene_selected)
@@ -110,3 +110,11 @@ print(codon_usage_auto)
 # check the reverse complement of the spike gene
 spike_gene_selected_revcomp <- reverseComplement(spike_gene_selected)
 print(spike_gene_selected_revcomp)
+
+# translate the spike gene
+spike_gene_selected_aa <- translate(spike_gene_selected, if.fuzzy.codon="solve")
+print(spike_gene_selected_aa)
+
+# write the spike gene to a fasta file
+writeXStringSet(spike_gene_selected, "sequence_data/spike_gene_nt.fasta") 
+writeXStringSet(spike_gene_selected_aa, "sequence_data/spike_gene_aa.fasta")
