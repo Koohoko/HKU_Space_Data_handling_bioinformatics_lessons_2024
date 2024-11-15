@@ -19,10 +19,10 @@ This exercise introduces students to bioinformatics data handling, focusing on d
 ---
 
 ## Instructions for Accessing the Colab Notebook
-1. **Access the Reference code**: Open the github repo to access the pre-configured reference code.
-2. **Notebook Overview**: The notebook is divided into sections with instructions and explanations for each step.
+1. **Access the Reference code**: Open the github repo to access the [pre-configured reference code](https://github.com/Koohoko/HKU_Space_Data_handling_bioinformatics_lessons_2024/blob/main/scripts/analyse_seqs.R).
+2. **Notebook Overview**: The co-lab notebook should divided into serveral sections with code chunks and text chunks (explanations for each step).
 3. **Running Cells**: Click on each code cell and press the “Run” button to execute the code and view results.
-4. **Follow Along**: Each code block is accompanied by an explanation, so follow along and read the comments carefully.
+4. **Follow Along**: Each code block should be accompanied by an explanation, so follow along and read the comments carefully.
 
 ---
 
@@ -67,8 +67,10 @@ The report should include:
 3. **Sequence Analysis (35 marks)**
    - Results and interpretation of GC content and codon usage analysis (Are the results the same for the two sequences? Interpret your observation).
 4. **Notebook Organization and Reproducibility (20 marks)**
-   - A print of the organized notebook which you used for generating the results, with readable code and ensuring the results are reproducible.
+   - You refelction on using R, using colab, and overall steps you did, with readable code and ensuring the results are reproducible.
 5. **Reflection (15 marks)**
    - Reflection on the importance of reproducibility and data organization.
+
+*You should submit print of the organized notebook (the colab document) which you used for generating the results.*
 
 ---
