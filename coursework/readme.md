@@ -19,7 +19,7 @@ This exercise introduces students to bioinformatics data handling, focusing on d
 ---
 
 ## Instructions for Accessing the Colab Notebook
-1. **Access the Notebook**: Open the link provided on Moodle to access the pre-configured Google Colab notebook.
+1. **Access the Reference code**: Open the github repo to access the pre-configured reference code.
 2. **Notebook Overview**: The notebook is divided into sections with instructions and explanations for each step.
 3. **Running Cells**: Click on each code cell and press the “Run” button to execute the code and view results.
 4. **Follow Along**: Each code block is accompanied by an explanation, so follow along and read the comments carefully.
